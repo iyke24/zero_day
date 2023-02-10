@@ -1,0 +1,24 @@
+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  -- git access token
+
+git clone https://{YOUR_PERSONAL_TOKEN}@github.com/{YOUR_USERNAME}/alx-zero_day.git -- clone git repository
+
+git config --global user.email "you@example.com"  -- update my git identity
+
+//how to add changes to the git repository
+git add .
+git commit -m "Commit message"
+git push
+//end of 
+
+//create a new branch in your repository
+git branch branch_name
+//change to the new branch
+git checkout branch_name
+
+
+//how to push a new branch
+git add .
+git commit -m "Commit message"
+git push --set-upstream origin branch_name
+//end of 
+
